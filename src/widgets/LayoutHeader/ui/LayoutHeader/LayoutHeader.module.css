@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding: 16px;
+  width: 100%;
+  height: 68px;
+  background-color: var(--header-background-color);
+}
+
+.right {
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+  gap: 16px;
+}
