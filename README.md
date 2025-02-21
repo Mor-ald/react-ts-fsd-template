@@ -8,7 +8,7 @@
 - Типизация: `TypeScript`
 - Стилизация: `CSS`
 - Тестирование: `Jest`, `React testing library`
-- Линтинг и форматирование: `Eslint`, `Stylelint`, `Prettier`
+- Линтинг и форматирование: `Eslint`, `Stylelint`, `Prettier`, `Steiger`
 - Сборка: `Vite`
 - Стандартизация коммитов: `Commitlint`, `Commitizen`
 - Методолгогия структуры проекта: `FSD` ([_подробнее_]("https://feature-sliced.design/ru/"))
@@ -104,4 +104,10 @@ npm run lint
 
 ```
 npm run format
+```
+
+- Запуск Steiger (линтер FSD)
+
+```
+npm run lint-fsd
 ```
